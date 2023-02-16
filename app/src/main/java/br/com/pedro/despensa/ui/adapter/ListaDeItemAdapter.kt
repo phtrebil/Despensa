@@ -16,7 +16,7 @@ class ListaDeItemAdapter(
 ): RecyclerView.Adapter<ListaDeItemAdapter.ItemViewHolder>() {
 
     private val despensa = despensa.toMutableList()
-
+n
     inner class ItemViewHolder(
         private val binding: ItemListaBinding
     ) : RecyclerView.ViewHolder(binding.root) {
