@@ -4,7 +4,7 @@ import retrofit2.http.*
 
 class DespensaApi {
 
-    @GET("")
+    @GET("despensa.json")
     suspend fun buscaTodas() {
     }
 
