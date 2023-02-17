@@ -10,13 +10,13 @@ import br.com.pedro.despensa.model.Despensa
 import coil.load
 
 class ListaDeItemAdapter(
-    despensa: List<Despensa> = emptyList(),
     private val context: Context,
+    despensa: List<Despensa> = emptyList(),
     var quandoClicaNoItem: (despensa: Despensa) -> Unit = {}
 ): RecyclerView.Adapter<ListaDeItemAdapter.ItemViewHolder>() {
 
     private val despensa = despensa.toMutableList()
-n
+
     inner class ItemViewHolder(
         private val binding: ItemListaBinding
     ) : RecyclerView.ViewHolder(binding.root) {
