@@ -9,4 +9,5 @@ interface DespensaService {
     @GET("despensa.json")
     fun buscaTodas(): Call<List<Despensa>>
 
+
 }

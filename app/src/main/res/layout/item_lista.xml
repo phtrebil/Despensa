@@ -35,8 +35,6 @@
             android:layout_margin="8dp"
             android:layout_marginStart="200dp"
             android:layout_marginTop="8dp"
-            android:ellipsize="end"
-            android:maxLines="1"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="12sp"
@@ -48,14 +46,14 @@
 
         <TextView
             android:id="@+id/quantidade"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/nome_item"
+            app:layout_constraintTop_toBottomOf="@id/nome_item"
             app:layout_constraintStart_toStartOf="@+id/nome_item"
-            tools:layout_editor_absoluteY="141dp"
-            tools:text="8" />
+            tools:text="18" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
