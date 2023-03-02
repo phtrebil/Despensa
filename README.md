@@ -13,3 +13,11 @@ Tela de Lista da Despensa
 width="300px"/>
 </h5>
 
+
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Despensa**
+| :label: Tecnologias | kotlin, retrofit, recyclerView
+| :rocket: URL         | https://github.com/phtrebil/Despensa
+| :fire: Desafio     | https://github.com/phtrebil/Despensa
